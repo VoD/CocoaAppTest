@@ -2,7 +2,7 @@
 //  ViewController.swift
 //  NSTableView
 //
-//  Created by 大門光寛 on 2018/08/31.
+//  Created by M.Daimon on 2018/08/31.
 //  Copyright © 2018年 tetsuryokukai. All rights reserved.
 //
 
