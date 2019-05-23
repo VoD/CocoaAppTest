@@ -26,6 +26,12 @@ class ViewController: NSViewController {
         }
     }
 
-
+    @IBAction func show(_ sender: Any) {
+        
+        print((self.representedObject as! Model).description)
+        
+//        print(self.arrayCon.arrangedObjects as! [NSString])
+    }
+    
 }
 

@@ -766,9 +766,6 @@
                                                                         </connections>
                                                                     </tableCellView>
                                                                 </prototypeCellViews>
-                                                                <connections>
-                                                                    <binding destination="bB9-9G-zwY" name="value" keyPath="arrangedObjects.title" id="01Q-iA-DMU"/>
-                                                                </connections>
                                                             </tableColumn>
                                                             <tableColumn width="116" minWidth="40" maxWidth="1000" id="XZk-QM-MRn">
                                                                 <tableHeaderCell key="headerCell" lineBreakMode="truncatingTail" borderStyle="border" title="Author">
@@ -805,13 +802,11 @@
                                                                         </connections>
                                                                     </tableCellView>
                                                                 </prototypeCellViews>
-                                                                <connections>
-                                                                    <binding destination="bB9-9G-zwY" name="value" keyPath="arrangedObjects.author" id="yJd-vk-tNR"/>
-                                                                </connections>
                                                             </tableColumn>
                                                         </tableColumns>
                                                         <connections>
                                                             <binding destination="bB9-9G-zwY" name="content" keyPath="arrangedObjects" id="ozc-Qk-Crc"/>
+                                                            <binding destination="bB9-9G-zwY" name="selectionIndexes" keyPath="selectionIndexes" previousBinding="ozc-Qk-Crc" id="pEc-Ka-8Wv"/>
                                                         </connections>
                                                     </tableView>
                                                 </subviews>
