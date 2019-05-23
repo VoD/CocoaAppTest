@@ -29,13 +29,13 @@ class SomeValueTransformer: ValueTransformer {
         
         switch tag {
         case 0:
-            return "A" as NSString
+            return "A"
         case 1:
-            return "B" as NSString
+            return "B"
         case 2:
-            return "C" as NSString
+            return "C"
         case 3:
-            return "D" as NSString
+            return "D"
         default:
             return nil
         }

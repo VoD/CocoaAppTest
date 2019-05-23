@@ -12,11 +12,6 @@ import Cocoa
 class AppDelegate: NSObject, NSApplicationDelegate {
 
     
-    func applicationWillFinishLaunching(_ notification: Notification) {
-        ValueTransformer.setValueTransformer(SomeValueTransformer(), forName: NSValueTransformerName("SomeValueTransformer"))
-    }
-
-
     func applicationDidFinishLaunching(_ aNotification: Notification) {
         // Insert code here to initialize your application
     }
