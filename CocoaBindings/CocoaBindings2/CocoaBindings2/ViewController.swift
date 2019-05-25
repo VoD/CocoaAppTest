@@ -17,7 +17,7 @@ class ViewController: NSViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        self.representedObject = Model()
+        
     }
 
     override var representedObject: Any? {
@@ -28,10 +28,17 @@ class ViewController: NSViewController {
 
     @IBAction func show(_ sender: Any) {
         
-        print((self.representedObject as! Model).description)
-        
-//        print(self.arrayCon.arrangedObjects as! [NSString])
+        print((self.representedObject as? Model)?.description ?? "nil")
     }
     
+    @IBAction func alloc(_ sender: Any) {
+        
+        self.representedObject = Model()
+    }
+    
+    @IBAction func dealloc(_ sender: Any) {
+        
+        self.representedObject = nil
+    }
 }
 

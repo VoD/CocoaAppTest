@@ -8,7 +8,11 @@
 
 import Cocoa
 
-final class Model: NSObject {
+class PreModel: NSObject {
+    
+}
+
+final class Model: PreModel {
     @objc dynamic var value1: Int
     @objc dynamic var value2: Int
     @objc dynamic var value3: [NSMutableDictionary]

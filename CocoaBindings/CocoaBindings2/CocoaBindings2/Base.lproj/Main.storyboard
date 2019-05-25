@@ -1020,6 +1020,28 @@
                                     <binding destination="XfG-lQ-9wD" name="selectedTag" keyPath="representedObject.value4" previousBinding="v8R-Nt-dW4" id="o1o-4E-3qf"/>
                                 </connections>
                             </popUpButton>
+                            <button verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="TgZ-Zs-f3l">
+                                <rect key="frame" x="314" y="13" width="70" height="32"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                <buttonCell key="cell" type="push" title="Alloc" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="Gyc-N1-yXg">
+                                    <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                                    <font key="font" metaFont="system"/>
+                                </buttonCell>
+                                <connections>
+                                    <action selector="alloc:" target="XfG-lQ-9wD" id="FX1-42-44Q"/>
+                                </connections>
+                            </button>
+                            <button verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="AXT-EB-rOS">
+                                <rect key="frame" x="231" y="14" width="86" height="32"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                <buttonCell key="cell" type="push" title="Dealloc" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="cN5-aA-cAM">
+                                    <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                                    <font key="font" metaFont="system"/>
+                                </buttonCell>
+                                <connections>
+                                    <action selector="dealloc:" target="XfG-lQ-9wD" id="M68-va-hwT"/>
+                                </connections>
+                            </button>
                         </subviews>
                     </view>
                 </viewController>
