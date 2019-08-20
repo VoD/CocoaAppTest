@@ -9,3 +9,7 @@ refer to [Cocoa Bindings Programming Topics](https://developer.apple.com/library
 
 - Example of Bindings of `NSViewController.representedObject` to Some `NSControl`
   
+## CocoaBindings3
+
+- Example of Bindings with `NSArrayController` and `UserDefaults` (not worked).
+  
